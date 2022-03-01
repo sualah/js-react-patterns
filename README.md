@@ -1,4 +1,4 @@
-# js-react-patterns
+# Javascript And React Patterns
 
 # Contents
 
