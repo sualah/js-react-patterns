@@ -3,7 +3,6 @@
 # Contents
 
 * **[Introduction](#intro)**
-  - [Installation instructions](#debinstall)
 * **[Design Patterns](#design)**
   - [Singleton Pattern](#singleton)
 
@@ -21,6 +20,7 @@ Over the past couple of years, the web development ecosystem has changed rapidly
 
 <a name="singleton"></a>
 ## Singleton Pattern
+Singletons are classes which can be instantiated once, and can be accessed globally. This single instance can be shared throughout our application, which makes Singletons great for managing global state in an application.
 
 
 
