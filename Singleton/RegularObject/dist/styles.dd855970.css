@@ -39,5 +39,20 @@ button {
   background: linear-gradient(to right, #ef473a, #cb2d3e);
 }
 
+#decrease {
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+  background: linear-gradient(to right, #ef473a, #cb2d3e);
+}
+
+#header {
+  color: red;
+ }
+
+#counter {
+ color: #0072ff;
+  
+}
+
+
 
 /*# sourceMappingURL=/styles.dd855970.css.map */

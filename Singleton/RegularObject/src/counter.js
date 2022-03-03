@@ -7,6 +7,10 @@ const counter = {
   decrement() {
     return --count;
   },
+
+  getCount() {
+    return count;
+  },
 };
 
 Object.freeze(counter);

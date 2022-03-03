@@ -28,6 +28,21 @@ Singletons are classes which can be instantiated once, and can be accessed globa
 
 
 
+### Mandates or Requirements
+In the GoF book, the applicability of the Singleton pattern is described as follows:
+
+There must be exactly one instance of a class, and it must be accessible to clients from a well-known access point.
+When the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code.
+
+
+### Example Use Case
+  - React State management
+    In React, we often rely on a global state through state management tools such as Redux or React Context instead of using Singletons. Although their global state behavior might seem similar to that of a Singleton, these tools provide a read-only state rather than the mutable state of the Singleton. When using Redux, only pure function reducers can update the state, after a component has sent an action through a dispatcher.
+
+    Although the downsides to having a global state don't magically disappear by using these tools, we can at least make sure that the global state is mutated the way we intend it, since components cannot update the state directly.
+
+
+
 
 
 
